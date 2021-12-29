@@ -70,3 +70,7 @@ button:hover{
     color:rgb(209, 155, 84);
     cursor: pointer;
 }
+.footer{
+    text-align: center;
+    padding:20px;
+}
