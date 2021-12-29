@@ -20,6 +20,7 @@ span{
 }
 h1{
     font-weight: bolder;
+    text-align: center;
 }
 .service{
     background-image: url(images/background3.jpg.jpg);
@@ -29,4 +30,5 @@ h1{
 }
 .row{
     text-align:center;
+    padding: 50px;
 }
