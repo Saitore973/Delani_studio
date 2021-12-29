@@ -37,8 +37,18 @@ h1{
 }
 .fom{
     margin:35px 100px;
+    background-color:transparent;
+    color: #fff!important;
 }
 .labal{
     margin: 45px 110px;
     padding: 10px 250px 250px 10px;
+     background-color:  transparent;
+     color:blue;
+}
+.name{
+    background-color:transparent;
+}
+.contact{
+    background-image: url(images/background1.jpg)
 }
