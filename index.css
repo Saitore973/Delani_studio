@@ -13,3 +13,8 @@ span{
 .intro{
     padding: 150px;
 }
+.jumbotron{
+    background-color: #fff;
+    text-align: center;
+    line-height:35px;
+}
