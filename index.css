@@ -18,3 +18,11 @@ span{
     text-align: center;
     line-height:35px;
 }
+h1{
+    font-weight: bolder;
+}
+.service{
+    background-image: url(images/background3.jpg.jpg);
+    background-size: cover;
+    padding:130px;
+}
