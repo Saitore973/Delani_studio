@@ -1,5 +1,15 @@
 .hero{
     background-image: url(images/background2.jpg);
     background-size: cover;
+    text-align: center;
+    padding: 70px;
+    color: #fff;
     
+}
+span{
+   
+    line-height: 160px;
+}
+.intro{
+    padding: 150px;
 }
