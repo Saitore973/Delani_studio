@@ -18,4 +18,17 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $("#develop").click(function () {
+    $(".design-show").toggle();
+    $("#develop").toggle();
+  });
+});
+
+$(document).ready(function () {
+  $(".design-show").click(function () {
+    $(".design-show").toggle();
+    $("#develop").toggle();
+  });
+});
 
