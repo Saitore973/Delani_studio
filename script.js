@@ -32,3 +32,16 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $("#product").click(function () {
+    $(".product-hide").toggle();
+    $("#product").toggle();
+  });
+});
+
+$(document).ready(function () {
+  $(".product-hide").click(function () {
+    $(".product-hide").toggle();
+    $("#product").toggle();
+  });
+});
