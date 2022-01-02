@@ -21,7 +21,7 @@
   - Send Feedback
   
 ## Live link
-[Live Link]
+[Live Link] (https://saitore973.github.io/Delani_studio/)
   
 ## Technologies used
   - HTML
