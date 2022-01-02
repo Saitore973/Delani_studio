@@ -1,103 +1,135 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-.hero{
+
+.hero {
     background-image: url(images/background2.jpg);
     background-size: cover;
     text-align: center;
     padding: 70px;
     color: #fff;
-    
+
 }
-span{
-   
+
+span {
+
     line-height: 160px;
 }
-.intro{
+
+.intro {
     padding: 150px;
 }
-.jumbotron{
+
+.jumbotron {
     background-color: #fff;
     text-align: center;
-    line-height:35px;
+    line-height: 35px;
 }
-h1{
+
+h1 {
     font-weight: bolder;
     text-align: center;
 }
-.service{
+
+.service {
     background-image: url(images/background3.jpg.jpg);
     background-size: cover;
-    padding:130px;
+    padding: 130px;
     color: #fff;
 }
-.row{
-    text-align:center;
+
+.row {
+    text-align: center;
     padding: 50px;
 }
-.portfolio{
+
+.portfolio {
     margin: 2% 8%;
     position: relative;
 }
-.fom{
-    margin:35px 100px;
-    background-color:transparent;
-    color: #fff!important;
-}
-.labal{
-    margin: 45px 110px;
-    padding: 15px 250px 250px 15px;
-     background-color:  transparent;
-     color:blue;
-}
-.name{
-    background-color:transparent;
-}
-.contact{
-    background-image: url(images/background1.jpg)
-}
-.container{
-    text-align: center;
-    padding:30px;
+
+.fom {
+    margin: 35px 100px;
+    background-color: transparent;
+    color: #fff !important;
 }
 
-.btn button{
+.labal {
+    margin: 45px 110px;
+    padding: 15px 250px 250px 15px;
+    background-color: transparent;
+    color: blue;
+}
+
+.name {
+    background-color: transparent;
+}
+
+.contact {
+    background-image: url(images/background1.jpg)
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn button {
     display: block;
     margin: 0 500%;
     padding: 15px 50px;
     border: none;
-    border-radius:25px;
-    background-color:rgb(209, 155, 84);
+    border-radius: 25px;
+    background-color: rgb(209, 155, 84);
     transition: all 200ms ease-in-out;
-    
+
 }
-.btn button:hover{
-    background-color:#fff;
-    color:rgb(209, 155, 84);
+
+.btn button:hover {
+    background-color: #fff;
+    color: rgb(209, 155, 84);
     cursor: pointer;
 }
-.footer{
+
+.footer {
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
-.design-hide{
+
+.design-hide {
     display: none;
 }
-.design-show{
+
+.design-show {
     display: none;
 }
-.product-hide{
+
+.product-hide {
     display: none;
 }
-.work1,.work2 ,.work3 ,.work4 ,.work5 ,.work6 ,.work7 ,.work8{
+
+.work1,
+.work2,
+.work3,
+.work4,
+.work5,
+.work6,
+.work7,
+.work8 {
     border: 1px solid;
-    padding:40px 80px;
-    font-size:20px;
+    padding: 40px 80px;
+    font-size: 20px;
     height: 60%;
-    top:20%;
+    top: 20%;
     background-color: rgb(212, 206, 206);
-    display:none;
+    display: none;
     position: absolute;
     z-index: 1;
-    margin-left:12px;
+    margin-left: 12px;
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
