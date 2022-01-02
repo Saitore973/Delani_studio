@@ -1,13 +1,15 @@
-$(".mouse").hover(function () {
-  alert("This is a heading tag");
+$(document).ready(function () {
+  $("#mouse").click(function () {
+    $("#mouse").fadeOut();("slow");
+  });
 });
+
 
 
 $(document).ready(function () {
   $("#design").click(function () {
     $(".design-hide").toggle();
     $("#design").toggle();
-    
   });
 });
 
@@ -44,4 +46,8 @@ $(document).ready(function () {
     $(".product-hide").toggle();
     $("#product").toggle();
   });
+});
+
+$(".works1").hover(() => {
+  $(".work1").toggle();
 });
