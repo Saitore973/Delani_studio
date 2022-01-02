@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+#mouse:hover{
+    width: 35px;
+}
 
 .hero {
     background-image: url(images/background2.jpg);
@@ -66,7 +69,8 @@ h1 {
 }
 
 .contact {
-    background-image: url(images/background1.jpg)
+    background-image: url(images/background1.jpg);
+    padding: 30px;
 }
 
 .container {
@@ -121,11 +125,12 @@ h1 {
     font-size: 20px;
     height: 60%;
     top: 20%;
-    background-color: rgb(212, 206, 206);
+    background-color: white;
     display: none;
     position: absolute;
     z-index: 1;
     margin-left: 12px;
+    text-align: center;
 }
 
 #mc_embed_signup {

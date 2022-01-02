@@ -1,12 +1,4 @@
 $(document).ready(function () {
-  $("#mouse").click(function () {
-    $("#mouse").fadeOut();("slow");
-  });
-});
-
-
-
-$(document).ready(function () {
   $("#design").click(function () {
     $(".design-hide").toggle();
     $("#design").toggle();
@@ -98,8 +90,8 @@ function validate() {
   if (name.length > 2 && message.length > 10) {
     alert(
       "Hi " +
-        name +
-        " we have received your message. Thank you for keeping in touch"
+      name +
+      " we have received your message. Thank you for keeping in touch"
     );
   }
 }
