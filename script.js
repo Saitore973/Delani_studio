@@ -48,6 +48,11 @@ $(document).ready(function () {
   });
 });
 
-$(".works1").hover(() => {
+$(".photo1").hover(() => {
   $(".work1").toggle();
 });
+
+$(".photo2").hover(() => {
+  $(".work2").toggle();
+});
+
